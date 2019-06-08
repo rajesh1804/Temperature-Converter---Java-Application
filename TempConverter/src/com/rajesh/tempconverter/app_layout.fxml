@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="250.0" prefWidth="323.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.rajesh.tempconverter.Controller">
+    <children>
+        <Pane prefHeight="215.0" prefWidth="323.0">
+            <children>
+                <Label fx:id="welcomeLabel" alignment="CENTER" layoutX="2.0" layoutY="22.0" prefHeight="27.0" prefWidth="323.0" text="Temp Converter">
+                    <font>
+                        <Font name="System Bold" size="18.0" />
+                    </font>
+                </Label>
+                <ChoiceBox fx:id="choiceBox" layoutX="70.0" layoutY="66.0" prefHeight="31.0" prefWidth="186.0" />
+                <TextField fx:id="userInputField" layoutX="70.0" layoutY="111.0" promptText="Enter temp value" />
+                <Button fx:id="convertButton" layoutX="126.0" layoutY="161.0" mnemonicParsing="false" text="Convert" />
+            </children>
+        </Pane>
+    </children>
+</VBox>
